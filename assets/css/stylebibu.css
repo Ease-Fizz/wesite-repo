@@ -1,0 +1,262 @@
+:root {
+    --black-color: #000000;
+    --white-color: #EEEEEE;
+    --orange-color: #f0710a;
+    --lightgreen-color: #44da94;
+    --blue-color: #171979;
+    --light-blue: #0db8ec;
+
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.logoho {
+    width: 200px;
+    height: 70px;
+}
+
+nav {
+    background-color: var(--blue-color);
+    position: sticky;
+    top: 0;
+
+    
+}
+.navbar{
+    height: 90px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: var(--white-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    background-color: #171979;
+    /* border-radius: 2px; */
+    /* margin-bottom: 10px; */
+    height: 90px;
+
+}
+
+.navbar-nav {
+    margin-left: 159px;
+}
+
+.navbar-nav .nav-link {
+    margin: 30px;
+}
+
+/* .nav-bar {
+    padding: 0;
+} */
+
+.navbar a:hover,
+.navbar .active,
+.navbar .visited,
+.navbar :focus {
+    color:var(--orange-color) !important;
+    
+}
+
+
+:hover .dropdown-item {
+    color: var(--black-color)!important;
+
+}
+
+.font-ho {
+    font-weight: 1000;
+    margin-top: 17px;
+    font-size: 3rem;
+    color: #EEEEEE;
+}
+
+.textho {
+    text-align: justify;
+    color: #EEEEEE;
+
+}
+
+.colorgarnu {
+    color: var(--orange-color) !important;
+} 
+
+#hero {
+    background-image: url("../css/images/backgroundimage.jpg");
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.color-orange {
+    background-color: var(--orange-color) !important;
+    color: #EEEEEE !important;
+
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.fan {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.services .service-item {
+    margin-top: 25px;
+    box-shadow: 0px 0px 15px #e4e2e2;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.services .service-item .fa {
+    float: left;
+    font-size: 64px;
+    color: #44da94;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    transition: all .5s;
+}
+
+.services .service-item .fa:hover {
+    color: #185f35;
+    cursor: pointer;
+}
+
+.call-to-action {
+    background-image: url(../css/images/projectkobg.jpg);
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: scroll;
+    border: 5px var(--white-color);
+    /* border-radius: 6px; */
+    /* padding: 100px 0px; */
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .case{
+    margin-top: 25px;
+} */
+
+/* .call-to-action .btn {
+    margin-left: 30px !important;
+} */
+
+.juzz {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.pramod {
+    color: var(--lightgreen-color);
+}
+
+.bijju {
+    color: var(--orange-color) !important;
+}
+.pointgirl{
+    width: 100%;
+    overflow: hidden;
+    margin-top: -100px;
+    margin-left:0px;
+    margin-bottom: 10px;
+}
+.sectionheading .freedom{
+    text-transform: uppercase;
+    color: var(--orange-color);
+    font-weight: 700;
+    
+}
+.sectionheading .plan{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 42px;
+}
+.about-us{
+    background-image:url(../css/images/aboutus-bg.jpg);
+    margin-top: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    padding: 80px 0px;
+}
+.form-control{
+   background-color: rgba(121,134,151, 0.7);
+   border-radius: 5px;
+}
+.bottle{
+    margin-top: 55px;
+}
+.lastbutton{
+    background-color: var(--orange-color)!important;
+    font-weight: 700;
+} 
+/* .last-img2{
+    margin-left: 100px;
+}
+.last-img3{
+    margin-left: 205px;
+}
+.last-img4{
+    margin-left: 290px;
+} */
+.clash{
+    margin-top: 90px;
+}
+.list-social li{
+    list-style: none;
+    float: center;
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+    
+}
+.list-social li a{
+    color:var(--blue-color) !important;
+}
+.footer p{
+    text-align: center;
+}
+#footer{
+    background-color:rgba(121,134,151, 0.7);
+    margin-top: 90px;
+    cursor:default;
+
+}
+.tallo-button{
+    margin-bottom: 40px;
+}
+/* .dropdown-item :hover{
+    background-color:var(--orange-color)!important;
+} */
+/* .clash{
+    width: 160px;
+    height: 150px;
+    margin-left: 120px;   
+    margin-top: 30px;  
+    
+   
+ } */
+ .dropdown-menu{
+    background-color:var(--orange-color);
+ }
+

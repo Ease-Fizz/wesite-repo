@@ -1,0 +1,145 @@
+:root {
+    --black-color: #000000;
+    --white-color: #EEEEEE;
+    --orange-color: #f0710a;
+    --lightgreen-color: #44da94;
+    --blue-color: #171979;
+    --light-blue: #0db8ec;
+
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logoho {
+    width: 200px;
+    height: 70px;
+}
+
+nav {
+    background-color: var(--blue-color);
+    position: sticky;
+    top: 0;
+
+
+}
+
+.navbar {
+    height: 90px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: var(--white-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    background-color: #171979;
+    /* border-radius: 2px; */
+    /* margin-bottom: 10px; */
+    height: 90px;
+
+}
+
+.navbar-nav {
+    margin-left: 159px;
+}
+
+.navbar-nav .nav-link {
+    margin: 30px;
+}
+
+/* .nav-bar {
+    padding: 0;
+} */
+
+.navbar a:hover,
+.navbar .active,
+.navbar .visited,
+.navbar :focus {
+    color: var(--orange-color) !important;
+
+}
+
+
+:hover .dropdown-item {
+    color: var(--black-color) !important;
+
+}
+
+.dropdown-menu {
+    background-color: var(--orange-color);
+}
+
+.last-img1 {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.list-social li a {
+    color: var(--blue-color) !important;
+}
+
+.footer p {
+    text-align: center;
+}
+
+#footer {
+    background-color: rgba(121, 134, 151, 0.7);
+    cursor: default;
+    box-shadow: 1px 10px 0px 12px rgba(121, 134, 151, 0.7);
+
+}
+
+.list-social li {
+    list-style: none;
+    float: center;
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+
+}
+
+#projects-haru,
+.loadButton {
+    background-color: darkgray;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-img1 {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.last-img1:hover {
+    transform: scale(1.1);
+
+}
+
+:hover.last-img1 {
+    cursor: grab;
+}
+
+
+.item p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 0px;
+    cursor: pointer;
+}
